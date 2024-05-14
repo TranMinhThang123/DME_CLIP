@@ -21,7 +21,7 @@ wget http://horatio.cs.nyu.edu/mit/silberman/nyu_depth_v2/nyu_depth_v2_labeled.m
 python extract_official_train_test_set_from_mat.py nyu_depth_v2_labeled.mat splits.mat ./nyu_depth_v2/official_splits/
 ```
 
-Download sync.zip provided by the authors of BTS from this [url](https://drive.google.com/file/d/1AysroWpfISmm-yRFGBgFTrLy6FjQwvwP/view) and unzip in `./nyu_depth_v2` folder. 
+Download sync.zip provided by the authors of BTS from this [url](https://drive.google.com/file/d/1AysroWpfISmm-yRFGBgFTrLy6FjQwvwP/view) and unzip in `datasets/nyu_depth_v2` folder. 
 
 
 
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 | **DepthCLIP (Zhang et al., 2022a)** | 1.167 | 0.394 | 0.683 | 0.851 | 0.388 |[Link](https://arxiv.org/pdf/2207.01077.pdf)
 | **Hu et al(Hu et al., 2024)** | 1.049 | 0.428 | 0.732 | 0.898 | 0.347 |[Link](https://arxiv.org/pdf/2311.01034.pdf)
 | **Auty et al.(Auty & Mikolajczyk, 2023)** | 0.970 | 0.465 | 0.776 | 0.922 | 0.319 |[Link](https://openaccess.thecvf.com/content/ICCV2023W/OpenSUN3D/papers/Auty_Learning_to_Prompt_CLIP_for_Monocular_Depth_Estimation_Exploring_the_ICCVW_2023_paper.pdf)
-| **MDE_CLIP** | <b>0.865 | <b>0.517 | <b>0.815 |<b> 0.938 | <b>0.304 |[Google drive](https://drive.google.com/file/d/16lbT8iayq87GCnoBC4e2Z9oLqmGwDiYn/view?usp=sharing) |
+| **DME_CLIP** | <b>0.802 | <b>0.545 | <b>0.841 |<b> 0.950 | <b>0.277 |[Google drive](https://drive.google.com/file/d/18F9AHg_xlYbPqtFAPm3mDp5-2DOSCM9t/view?usp=sharing) |
 
 ## Training
 
