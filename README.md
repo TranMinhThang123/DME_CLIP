@@ -8,7 +8,7 @@
 
 
   
-  ![alt text](https://github.com/TranMinhThang123/RefineDepthCLIP/blob/new_fix/assets/Architecture.png)
+  ![alt text](https://github.com/TranMinhThang123/DME_CLIP/assets/Architecture.png)
 
 
 ## Preparation
